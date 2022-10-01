@@ -12,7 +12,10 @@ const caminhos = {
 
 function Encruzilhada(props) {
     return (
-        caminhos[props.rota]
+        <>
+            <h1>Encruzilhada</h1>
+            {props && <p>{JSON.stringify(props)}</p>}
+        </>
     )
 }
 
