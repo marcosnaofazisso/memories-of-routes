@@ -13,12 +13,15 @@ function Home() {
             <br />
             <Link to="/estabelecimentos">Estabelecimentos</Link>
             <br />
-            {/* <br />
             <br />
             <br />
             <br />
             <br />
-            <button onClick={<Encruzilhada rota={'clientes'} />}>Encruzilhada</button> */}
+            <br />
+            <br />
+            <Link to="/encruzilhada" component={<Encruzilhada />}>Encruzilhada</Link>
+
+
         </>
     )
 }
