@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Clientes from '../components/Clientes'
 import Estabelecimentos from '../components/Estabelecimentos'
@@ -10,13 +11,18 @@ const caminhos = {
     'produtos': <Produtos />,
 }
 
-function Encruzilhada(props) {
+function Caminhos(props) {
     return (
         <>
-            <h1>Encruzilhada</h1>
-            {props && <p>{JSON.stringify(props)}</p>}
+            <h1>Caminhos</h1>
+            {/* {props && <p>{JSON.stringify(props)}</p>} */}
+            <br />
+            <br />
+            <br />
+            <Link to="/">voltar</Link>
+
         </>
     )
 }
 
-export default Encruzilhada
+export default Caminhos
