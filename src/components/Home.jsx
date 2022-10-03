@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Encruzilhada from '../routes/Encruzilhada'
+import Caminhos from '../routes/Caminhos'
 
 function Home() {
     return (
@@ -19,7 +19,7 @@ function Home() {
             <br />
             <br />
             <br />
-            <Link to="/encruzilhada" component={<Encruzilhada />}>Encruzilhada</Link>
+            <Link to="/caminhos" component={<Caminhos />}>Caminhos</Link>
 
 
         </>
